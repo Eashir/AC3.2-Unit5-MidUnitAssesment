@@ -11,10 +11,10 @@ import Foundation
 extension Recipe {
     func populate(with dict: [String: Any]) {
         if let title = dict["title"] as? String,
-            let url = dict["url"] as? String,
+            let href = dict["url"] as? String,
             let ingredients = dict["ingredeients"] as? String {
                 self.title = title
-                self.url = url
+                self.href = href
                 self.ingredients = ingredients
         }
     }
