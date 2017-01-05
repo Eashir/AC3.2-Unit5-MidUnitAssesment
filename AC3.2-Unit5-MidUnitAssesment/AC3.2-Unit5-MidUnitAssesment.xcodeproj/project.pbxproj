@@ -16,10 +16,6 @@
 		14AE96FC1E0CD8C6002E066A /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AE96FB1E0CD8C6002E066A /* Utilities.swift */; };
 		14AE96FE1E0CDF6C002E066A /* DesignTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AE96FD1E0CDF6C002E066A /* DesignTwoViewController.swift */; };
 		14AE97001E0CF393002E066A /* DesignThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AE96FF1E0CF393002E066A /* DesignThreeViewController.swift */; };
-		CC01AA641E1C4A1C001EDBE0 /* Recipe+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC01AA631E1C4A1C001EDBE0 /* Recipe+JSON.swift */; };
-		CC01AA681E1C507E001EDBE0 /* RecipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC01AA661E1C507E001EDBE0 /* RecipeTableViewCell.swift */; };
-		CC01AA691E1C507E001EDBE0 /* RecipeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC01AA671E1C507E001EDBE0 /* RecipeTableViewCell.xib */; };
-		CC01AA6B1E1C5110001EDBE0 /* RecipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC01AA6A1E1C5110001EDBE0 /* RecipeTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,10 +30,6 @@
 		14AE96FB1E0CD8C6002E066A /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		14AE96FD1E0CDF6C002E066A /* DesignTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignTwoViewController.swift; sourceTree = "<group>"; };
 		14AE96FF1E0CF393002E066A /* DesignThreeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignThreeViewController.swift; sourceTree = "<group>"; };
-		CC01AA631E1C4A1C001EDBE0 /* Recipe+JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Recipe+JSON.swift"; sourceTree = "<group>"; };
-		CC01AA661E1C507E001EDBE0 /* RecipeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeTableViewCell.swift; sourceTree = "<group>"; };
-		CC01AA671E1C507E001EDBE0 /* RecipeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecipeTableViewCell.xib; sourceTree = "<group>"; };
-		CC01AA6A1E1C5110001EDBE0 /* RecipeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,10 +96,6 @@
 		CC01AA651E1C4CD3001EDBE0 /* Core Data */ = {
 			isa = PBXGroup;
 			children = (
-				CC01AA631E1C4A1C001EDBE0 /* Recipe+JSON.swift */,
-				CC01AA661E1C507E001EDBE0 /* RecipeTableViewCell.swift */,
-				CC01AA671E1C507E001EDBE0 /* RecipeTableViewCell.xib */,
-				CC01AA6A1E1C5110001EDBE0 /* RecipeTableViewController.swift */,
 			);
 			name = "Core Data";
 			sourceTree = "<group>";
@@ -173,7 +161,6 @@
 			files = (
 				14229F3D1E0C82B3000085ED /* LaunchScreen.storyboard in Resources */,
 				14229F3A1E0C82B3000085ED /* Assets.xcassets in Resources */,
-				CC01AA691E1C507E001EDBE0 /* RecipeTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,15 +172,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				14229F451E0C82D4000085ED /* IndexTableViewController.swift in Sources */,
-				CC01AA641E1C4A1C001EDBE0 /* Recipe+JSON.swift in Sources */,
 				14229F381E0C82B3000085ED /* AC3_2_Unit5_MidUnitAssesment.xcdatamodeld in Sources */,
-				CC01AA681E1C507E001EDBE0 /* RecipeTableViewCell.swift in Sources */,
 				14229F301E0C82B3000085ED /* AppDelegate.swift in Sources */,
 				14AE96FC1E0CD8C6002E066A /* Utilities.swift in Sources */,
 				14229F481E0C8594000085ED /* DesignOneViewController.swift in Sources */,
 				14AE96FE1E0CDF6C002E066A /* DesignTwoViewController.swift in Sources */,
 				14AE97001E0CF393002E066A /* DesignThreeViewController.swift in Sources */,
-				CC01AA6B1E1C5110001EDBE0 /* RecipeTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
